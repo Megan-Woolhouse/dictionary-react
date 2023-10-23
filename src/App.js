@@ -5,14 +5,16 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <Dictionary />
-      <footer>
-        {" "}
-        <small>
-          Coded by Megan Woolhouse. Open-sourced on <a href="#">Github</a>
-        </small>
-      </footer>
+      <div className="container">
+        <header className="App-header"></header>
+        <Dictionary />
+        <footer>
+          {" "}
+          <small>
+            Coded by Megan Woolhouse. Open-sourced on <a href="#">Github</a>
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
