@@ -11,7 +11,10 @@ export default function App() {
         <footer>
           {" "}
           <small>
-            Coded by Megan Woolhouse. Open-sourced on <a href="#">Github</a>
+            Coded by Megan Woolhouse.{" "}
+            <a href="https://github.com/Megan-Woolhouse/dictionary-react">
+              Open-sourced on Github
+            </a>
           </small>
         </footer>
       </div>
