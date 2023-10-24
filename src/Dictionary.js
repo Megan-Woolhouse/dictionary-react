@@ -24,16 +24,18 @@ export default function Dictionary() {
     <div className="Dictionary">
       <section>
         <h1>Dictionary</h1>
-        <form onSubmit={search}>
-          <input
-            type="Search"
-            autoFocus={true}
-            onChange={capture}
-            className="search"
-            placeholder="Search for a word to find the definition"
-          />
-          <input type="submit" value="Search" className="submit" />
-        </form>
+        <div className="form">
+          <form onSubmit={search}>
+            <input
+              type="Search"
+              autoFocus={true}
+              onChange={capture}
+              className="search"
+              placeholder="Search for a word to find the definition"
+            />
+            <input type="submit" value="Search" className="submit" />
+          </form>
+        </div>
       </section>
       <Results results={results} />
     </div>
