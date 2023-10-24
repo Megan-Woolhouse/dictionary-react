@@ -8,16 +8,16 @@ export default function App() {
       <div className="container">
         <header className="App-header"></header>
         <Dictionary />
-        <footer>
-          {" "}
-          <small>
-            Coded by Megan Woolhouse.{" "}
-            <a href="https://github.com/Megan-Woolhouse/dictionary-react">
-              Open-sourced on Github
-            </a>
-          </small>
-        </footer>
       </div>
+      <footer>
+        {" "}
+        <small>
+          Coded by Megan Woolhouse.{" "}
+          <a href="https://github.com/Megan-Woolhouse/dictionary-react">
+            Open-sourced on Github
+          </a>
+        </small>
+      </footer>
     </div>
   );
 }

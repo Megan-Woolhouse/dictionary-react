@@ -7,7 +7,7 @@ export default function Phonetic(props) {
         Listen here
       </a>
       <br />
-      {props.phonetic.text}
+      <div className="opacity-75">{props.phonetic.text}</div>
     </div>
   );
 }

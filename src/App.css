@@ -1,4 +1,17 @@
 .App footer {
   text-align: center;
-  margin: 30px auto;
+  margin: 40px auto;
+  color: white;
+}
+
+.App footer a {
+  color: white;
+}
+.App {
+  background-color: #bdbbb0;
+  padding-top: 20px;
+}
+
+a {
+  color: #bdbbb0;
 }
