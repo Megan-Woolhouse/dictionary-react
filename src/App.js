@@ -13,7 +13,10 @@ export default function App() {
         {" "}
         <small>
           Coded by Megan Woolhouse.{" "}
-          <a href="https://github.com/Megan-Woolhouse/dictionary-react">
+          <a
+            href="https://github.com/Megan-Woolhouse/dictionary-react"
+            target="_blank"
+          >
             Open-sourced on Github
           </a>
         </small>
